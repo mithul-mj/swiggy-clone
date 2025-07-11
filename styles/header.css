@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  height: 80px;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s;
+}
+.colour-change:hover{
+  color: orange;
+  
+}
+.colour-change svg{
+  fill: orange;
+}
+
+.head-div {
+  width: 100%;
+  display: flex;
+}
+
+/* Left Header Section */
+.swiggy-head-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 15%;
+  font-size: 14px;
+}
+
+.swiggy-head-left .bg {
+  fill: #ff8000;
+}
+
+.swiggy-head-left .icon {
+  fill: #ffffff;
+}
+
+/* Right Header Section */
+.swiggy-head-right {
+  flex: 5;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  gap: 5%;
+  font-size: 16px;
+  /* background-color: lightcoral; */
+}
+
+/* Swiggy Logo */
+.Swiggy_logo {
+  width: 48.02px;
+  height: 48.02px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Icons */
+.swiggy-head-right svg,
+.swiggy-head-right i {
+  width: 19px;
+  height: 19px;
+  flex-shrink: 0;
+  fill: black;
+}
+
+.swiggy-head-right svg {
+  display: inline-block;
+  vertical-align: middle;
+}

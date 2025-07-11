@@ -1,0 +1,147 @@
+.end-outer-div{
+  display: flex;
+  justify-self: center;
+  flex-direction: column;
+  height: fit-content;
+  width: 80%;
+  padding: 16px 16px 30px 16px;
+  margin-bottom: 40px;
+}
+.top-heading{
+  display: flex;
+  width: 100%;
+  margin: 0 0 16px 0;
+  height: 25px;
+  justify-content: space-between;
+  /* background-color: beige; */
+}
+.top-heading h2{
+  font-size: 21px;
+  margin: 0 0 50px 0;
+}
+.end-inner-div{
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 30px;
+}
+.end-inner-div div{
+  height: 42px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 16.8px;
+  border: 1.5px solid rgba(2, 6, 12, 0.1);
+  border-radius: 16px;
+  
+}
+
+/* End */
+footer{
+  background-color: rgb(240, 240, 245);
+}
+.download-outer-div{
+  border-top: 1px solid black;
+  display: flex;
+  justify-self: center;
+  height: fit-content;
+  width: 80%;
+  padding: 16px 16px 30px 16px;
+  
+  align-items: center;
+  /* background-color: lightcoral; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.download-app-div{
+  padding-right: 30px;
+  display: flex;
+  gap: 10px;
+}
+.download-outer-div h2{
+  max-width: 55%;
+  font-size: 22px;
+  
+}
+.download-app-div{
+  gap: 30px;
+}
+.download-app-div img{
+  height: 75px;
+  width: auto;
+  
+}
+
+/* final-outer */
+.final-outer{
+  display: flex;
+  justify-self: center;
+  height: fit-content;
+  width: 80%;
+  padding: 16px 16px 30px 16px;
+  align-items: center;
+  /* background-color: lightcoral; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 30px;
+}
+.final-outer .row-div{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1;
+  width: 150px;
+  height: 577px;
+  /* background-color: lightgreen; */
+
+}
+.div1 img{
+  width: auto;
+  height: 50px;
+}
+
+.final-outer .row-div .final-sub{
+  color: rgba(2, 6, 12, 0.6);
+  font-size: 16px;
+}
+.final-outer .row-div .final-main{
+  font-size: 18px;
+}
+.div4 div{
+  display: flex;
+  flex-direction: row;
+}
+.div4 .more-cities {
+  text-align: center;
+  gap: 1px;
+  font-size: 14px;
+  color: rgba(2, 6, 12, 0.6);
+  border: 1px solid rgba(2, 6, 12, 0.15);
+  width: fit-content;
+  height: fit-content;
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+.legal-part{
+  margin-top: 80%;
+}
+.social-part{
+  margin-top: 80%;
+}
+.final-icons img{
+  width: auto;
+  height: 16px;
+  margin-right: 10px;
+}
